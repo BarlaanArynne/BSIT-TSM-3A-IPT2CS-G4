@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"> wizcaluag </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#landingpage"> Home </a></li>
+          <li><a href="#about"> About Me </a></li>
+          <li><a href="#skills"> Skills </a></li>
+          <li><a href="#favorites"> Favorites </a></li>
+          <li><a href="#socials"> Socials </a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <nav id="hamburger-nav">
+      <div class="logo"> wizcaluag </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()"> About </a></li>
+          <li><a href="#skills" onclick="toggleMenu()"> Skills </a></li>
+          <li><a href="#favorites" onclick="toggleMenu()"> Favorites </a></li>
+          <li><a href="#socials" onclick="toggleMenu()"> Socials </a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/aqparin.jpg"  />
+      </div>
+      <div class="section__text">
+        <h2 class="section__text__p1"> Hello, I'm </h2>
+        <h1 class="title"> Angel Nichole Corpuz </h1>
+
+        
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/litol.jpg"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          
+          <div class="text-container">
+            <p class="name"> Name: Angel Nichole Corpuz </p>
+            <p class="age"> Age: 20 years old </p>
+            <p class="bday"> Birthday: September 10, 2003 </p>
+            <p class="add"> Address: San Vicente, Tarlac City </p>
+            <p class="section"> Course and Section: BSIT-TSM-3A </p>
+          </div>
+          <div class="about-containers">
+            <div class="details-container">
+
+              <h2> Affiliate </h2>
+              <h3> TSU - CCS The Browser </h3>
+              <p> Literary Editor (2021 - 2020) </p>
+              <p> Associate Managing Editor (2022 - 2023) </p>
+              <p> Managing Editor (2023 - Present) </p>
+            </div>
+            <div class="details-container">
+
+              <h2> Academic Achievements </h2>
+              <ul>
+              <li> <h3> Dean's Lister (2021 - 2022) </h3> </li>
+              <li> <h3> Paskuhan Literary and Arts Competition 2022 </h3> </li>
+              <p> Short Story (2nd Place) </p>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+
+      <h1 class="title"> Skills </h1>
+      <div class="skills-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="subtitle"> Mas Special pa Special Skills </h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  class="icon"
+                />
+                <div>
+                  <h3> Pagiging pogi </h3>
+                  <p> Proven and tested </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  class="icon"
+                />
+                <div>
+                  <h3> Prob5mahin prob5ma ng iba </h3>
+                  <p> Experienced </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  class="icon"
+                />
+                <div>
+                  <h3> Magalit </h3>
+                  <p> Everyday </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  class="icon"
+                />
+                <div>
+                  <h3> Overthinking </h3>
+                  <p> Level 999999 </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  class="icon"
+                />
+                <div>
+                  <h3> Chismosa </h3>
+                  <p> Best in Data Gathering </p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  class="icon"
+                />
+                <div>
+                  <h3> Magtanim </h3>
+                  <p> ng sama ng loob </p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container1">
+            <div class="article-container">
+              <img src="./assets/nikki.jpg" class="about-pic">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="favorites">
+      <h1 class="title"> Favorites </h1>
+      
+      <h1 class="books"> Books </h1>
+      <div class="fave-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="fave-deets-container">
+              <img
+                src="./assets/pjo.jpg"
+                class="fave-img"
+              />
+            </div>
+            <p class="fave-title"> Percy Jackson and the Olympians </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="fave-deets-container">
+              <img
+                src="./assets/coralineb.jpg"
+                class="fave-img"
+              />
+            </div>
+            <p class="fave-title"> Coraline </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="fave-deets-container">
+              <img
+                src="./assets/tmr.png"
+                class="fave-img"
+              />
+            </div>
+            <p class="fave-title"> The Maze Runner </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="favorites">
+      <h1 class="movies"> Movies/Series </h1>
+      <div class="fave-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="fave-deets-container">
+              <img
+                src="./assets/mebeforeyou.gif"
+                class="fave-imgg"
+              />
+            </div>
+            <p class="fave-title"> Me Before You </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="fave-deets-container">
+              <img
+                src="./assets/coralineg.gif"
+                class="fave-imgg"
+              />
+            </div>
+            <p class="fave-title"> Coraline </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="fave-deets-container">
+              <img
+                src="./assets/giphy.gif"
+                class="fave-imgg"
+              />
+            </div>
+            <p class="fave-title"> Friends </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="favorites">
+      <h1 class="games"> Games </h1>
+      <div class="fave-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="fave-deets-container">
+              <img
+                src="./assets/ln.png"
+                class="fave-img"
+              />
+            </div>
+            <p class="fave-title"> Little Nightmares </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="fave-deets-container">
+              <img
+                src="./assets/star.jpg"
+                class="fave-img"
+              />
+            </div>
+            <p class="fave-title"> Stardew Valley </p>
+            <div class="btn-container">
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="fave-deets-container">
+              <img
+                src="./assets/phasmo.jpg"
+                class="fave-img"
+              />
+            </div>
+            <p class="fave-title"> Phasmophobia </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="favorites">
+      <h1 class="music"> Music/Artists </h1>
+      <p class="info"> klik pix to play musix </p>
+      <div class="fave-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="fave-deets-container" id="hozier">
+              <audio id="worksong" src="./assets/worksong.mp3"></audio>
+              <img
+                src="./assets/hozier.jpg"
+                class="artists-img"
+              />
+            </div>
+            <p class="fave-title"> Hozier </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="fave-deets-container" id="kiyo">
+              <audio id="ikawlang" src="./assets/ikawlang.mp3"></audio>
+              <img
+                src="./assets/kiyo.jpg"
+                class="artists-img"
+              />
+            </div>
+            <p class="fave-title"> Kiyo </p>
+            <div class="btn-container">
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="afave-deets-container" id="frank">
+              <audio id="godspeed" src="./assets/godspeed.mp3"></audio>
+              <img
+                src="./assets/frank.jpg"
+                class="artists-img"
+              />
+            </div>
+            <p class="fave-title"> Frank Ocean </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="socials">
+
+      <h1 class="title"> Socials </h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            class="email-icon"
+            onclick="location.href='mailto:angelcorpuz0910@gmail.com'"
+          />
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/facebook.png"
+            class="facebook-icon"
+            onclick="location.href='https://www.facebook.com/colysseum'"
+          />
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/instagram.png"
+            class="instagram-icon"
+            onclick="location.href='https://www.instagram.com/colysseum?igsh=b29yaGd1c2F4ZmI2'"
+          />
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/twitter.png"
+            class="twitter-icon"
+            onclick="location.href='https://twitter.com/jiyongedt'"
+          />
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/discord.png"
+            class="discord-icon"
+            onclick="location.href='https://discordapp.com/users/850999118889222155'"
+          />
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/teams.png"
+            class="teams-icon"
+            onclick="location.href='mailto:an.corpuz00402@student.tsu.edu.ph'"
+          />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about"> About Me </a></li>
+            <li><a href="#skills"> Skills </a></li>
+            <li><a href="#favorites"> Favorites </a></li>
+            <li><a href="#socials"> Socials </a></li>
+          </ul>
+        </div>
+      </nav>
+      <p> kung may prob5 ka, bigay mo saken para hindi q na prob5 prob5 q. </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
