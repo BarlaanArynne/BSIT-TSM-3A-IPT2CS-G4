@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"> wizcaluag </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about"> About Me </a></li>
+          <li><a href="#skills"> Skills </a></li>
+          <li><a href="#favorites"> Favorites </a></li>
+          <li><a href="#socials"> Socials </a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <nav id="hamburger-nav">
+      <div class="logo"> wizcaluag </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()"> About </a></li>
+          <li><a href="#skills" onclick="toggleMenu()"> Skills </a></li>
+          <li><a href="#favorites" onclick="toggleMenu()"> Favorites </a></li>
+          <li><a href="#socials" onclick="toggleMenu()"> Socials </a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/aqparin.jpg"  />
+      </div>
+      <div class="section__text">
+        <h2 class="section__text__p1"> Hello, I'm </h2>
+        <h1 class="title"> Angel Nichole Corpuz </h1>
+
+        
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/litol.jpg"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          
+          <div class="text-container">
+            <p class="name"> Name: Angel Nichole Corpuz </p>
+            <p class="age"> Age: 20 years old </p>
+            <p class="bday"> Birthday: September 10, 2003 </p>
+            <p class="add"> Address: San Vicente, Tarlac City </p>
+            <p class="section"> Course and Section: BSIT-TSM-3A </p>
+          </div>
+          <div class="about-containers">
+            <div class="details-container">
+
+              <h2> Affiliate </h2>
+              <h3> TSU - CCS The Browser </h3>
+              <p> Literary Editor (2021 - 2020) </p>
+              <p> Associate Managing Editor (2022 - 2023) </p>
+              <p> Managing Editor (2023 - Present) </p>
+            </div>
+            <div class="details-container">
+
+              <h2> Academic Achievements </h2>
+              <ul>
+              <li> <h3> Dean's Lister (2021 - 2022) </h3> </li>
+              <li> <h3> Paskuhan Literary and Arts Competition 2022 </h3> </li>
+              <p> Short Story (2nd Place) </p>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
