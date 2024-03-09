@@ -1,0 +1,28 @@
+html{
+    color: black;
+    background: url("allbg.jpeg");
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.zoom {
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    position: absolute;
+    top: 150px;
+    right: 90px;
+  }
+  .zoom img {
+    width: 70%;
+    transition: all .5s ease;
+  }
+  .zoom img:hover {
+    transform: scale(1.5);
+  }
+  header{
+    text-align: center;
+    color: black;
+  }
