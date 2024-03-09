@@ -1,0 +1,81 @@
+
+body {
+ background-color: #141414;
+}
+.wp {
+  margin-left: 6.8em;
+  margin-top: 1em;
+  height: 50px;
+  width: 90%;
+  display: inline-block;
+  justify-content: space-between;
+}
+#logo {
+  width: 110px;
+  height: 50px;
+   top:0;
+  margin-left:2em;
+}
+.acc {
+ margin-left: 22em;
+ margin-top: 3em;
+ height: 60px;
+ width: 60%;
+ display: inline-block;
+ justify-content: space-between;
+ }
+ #profile-pic {
+ height: 100px;
+ width: 100px;
+ background-repeat: no-repeat;
+ cursor: pointer;
+ border: 4px solid #2f2f2f;
+}
+#profile-pic:hover { 
+ border: 5px solid white;
+}
+.name {
+margin-left: 21em;
+ margin-top: 0em;
+ height: 60px;
+ width: 90%;
+ display: inline-block;
+ justify-content: space-between;
+ word-spacing: 80px;
+}
+h {
+ font-family: 'Open Sans', sans-serif;
+ font-size: 2em;
+ color: white;
+ margin-left: 11.5em;
+ font-style: bold;
+}
+p {
+  font-family: 'Libre Franklin', sans-serif;
+ font-size: 1em;
+ color: #BEC2CB;
+ margin-left:1.9em; 
+ margin-right: 2.5em;
+ display: inline-block;
+}
+button {
+ margin-top: 3em; 
+margin-left: 35em;
+ height: 35px;
+ width: 180px;
+ background-color: #141414;
+ border: 1px solid grey;
+ font-family: 'Libre Franklin', sans-serif;
+ font-size: .9em;
+ color: grey;
+ cursor: pointer;
+ text-transform: uppercase;
+}
+button:hover {
+ border: 1px solid white;
+ color: white;
+}
+a {
+ text-decoration: none;
+ color: #fff;
+}
